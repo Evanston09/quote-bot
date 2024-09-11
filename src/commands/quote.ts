@@ -1,5 +1,5 @@
 import { CommandInteraction, SlashCommandBuilder, EmbedBuilder } from 'discord.js';
-import * as quotesManager from "../quotesManager";
+import * as quotesManager from "../quotes-manager";
 
 module.exports = {
 	data: new SlashCommandBuilder()

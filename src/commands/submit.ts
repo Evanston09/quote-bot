@@ -1,5 +1,5 @@
 import { ModalBuilder, TextInputBuilder, TextInputStyle, ActionRowBuilder, ModalSubmitInteraction, CommandInteraction, SlashCommandBuilder } from 'discord.js';
-import * as quotesManager from '../quotesManager';
+import * as quotesManager from '../quotes-manager';
 
 module.exports = {
 	data: new SlashCommandBuilder()
